@@ -18,6 +18,7 @@ if (isset($_POST['variable1']) && isset($_POST['variable2'])){
         case '/':
             if (0 == $variable2){
                 echo 'На ноль делить нельзя';
+                break;
             }
             $result =  $variable1 / $variable2;
             break;
